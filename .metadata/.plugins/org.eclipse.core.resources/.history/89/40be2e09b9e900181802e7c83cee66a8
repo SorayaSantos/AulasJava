@@ -1,0 +1,12 @@
+package io.altar.examples;
+
+import java.awt.List;
+
+public class listExample {
+
+	public static void main(String[] args) {
+		List<String> listStrings = new
+
+	}
+
+}

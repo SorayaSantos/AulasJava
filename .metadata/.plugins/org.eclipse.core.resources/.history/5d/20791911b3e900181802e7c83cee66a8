@@ -1,0 +1,28 @@
+package io.altar.examples;
+
+public class TryCatch2 {
+
+	public static void main(String[] args) {
+		switch (args[0]){
+		case "DEV":
+			runDEV();
+			break;
+		case "PROD":
+			runPROD();
+			break;
+		case "TEST":
+			runTEST();
+			break;
+			
+			default:
+				break;
+		}
+	}
+
+	private static void runDEV() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

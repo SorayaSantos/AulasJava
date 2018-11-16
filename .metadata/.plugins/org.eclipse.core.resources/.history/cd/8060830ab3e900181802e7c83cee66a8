@@ -1,0 +1,26 @@
+package io.altar.examples;
+
+public class TryCatch2 {
+
+	public static void main(String[] args) {
+		switch (args[0]){
+		case "DEV":
+			runDev();
+			break;
+		case "PROD":
+			runDev();
+			break;
+		case "TEST":
+			runDev();
+			break;
+			
+			default:
+				break;
+		}
+	}
+
+	private static void runDev() {
+		System.out.println("Config DEV");
+	}
+
+}
