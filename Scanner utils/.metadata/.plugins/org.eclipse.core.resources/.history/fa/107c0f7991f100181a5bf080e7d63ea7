@@ -1,0 +1,15 @@
+package io.altar.exemploscan;
+
+public class Testes {
+	ScannerUtils scannerUtils = new ScannerUtils();
+
+	public static void main(String[] args) {
+		Testes testes = new Testes();
+		testes.teste();
+	}
+	private void teste(){
+		int[] ivas = new int[] {6,13,23};
+		int iva = scannerUtils.getValidIntFromScanner("mete o iva",ivas);
+		System.out.println("Result "+iva);
+	}
+}

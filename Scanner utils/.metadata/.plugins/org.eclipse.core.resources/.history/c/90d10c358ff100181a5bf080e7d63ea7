@@ -1,0 +1,11 @@
+package io.altar.exemploscan;
+
+public class Testes {
+	ScannerUtils scannerUtils = new ScannerUtils();
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

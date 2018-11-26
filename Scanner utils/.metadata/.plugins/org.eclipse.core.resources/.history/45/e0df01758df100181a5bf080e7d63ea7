@@ -1,0 +1,32 @@
+package io.altar.exemploscan;
+
+public class ScannerUtils {
+	public int getIntFromScanner(){
+		
+	}
+	public float getFloatFromScanner(){
+		
+	}
+	public boolean isType(String input,String type){
+		switch (type){
+		case "Integer":
+			try{
+				Integer.parseInt(input);
+				return true;
+			}catch(NumberFormatException e){
+				System.out.println("valor errado pff colocar um numero inteiro");
+				return false;
+			}
+		case "Float":
+		try{
+			Float.parseFloat(input);
+			return true;
+		}catch(NumberFormatException e){
+			System.out.println("valor errado pff colocar um numero ");
+			return false;
+		}
+		default:
+			return false;
+	}
+	}
+}

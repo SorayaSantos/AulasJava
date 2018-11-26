@@ -1,0 +1,10 @@
+package io.altar.exemploscan;
+
+public class ScannerUtils {
+	public int getIntFromScanner(){
+		
+	}
+	public float getFloatFromScanner(){
+		
+	}
+}

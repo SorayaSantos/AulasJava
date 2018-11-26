@@ -1,0 +1,8 @@
+package io.altar.exemploscan;
+
+public class Product {
+	int iva;
+	float pvp;
+	int discount;
+
+}
