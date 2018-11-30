@@ -1,9 +1,0 @@
-package io.altar.examples;
-
-public class TryCatch2 {
-
-	public static void main(String[] args) {
-
-	}
-
-}

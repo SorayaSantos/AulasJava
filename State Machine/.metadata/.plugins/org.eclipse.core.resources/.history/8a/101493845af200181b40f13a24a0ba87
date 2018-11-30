@@ -1,0 +1,5 @@
+package io.altar.StateMachine.State;
+
+public class MenuInicial {
+
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="io.altar.StateMachine.utils.ScannerUtils"/>
+<fullyQualifiedTypeName name="io.altar.StateMachine.State.MenuListarProdutos"/>
+<fullyQualifiedTypeName name="io.altar.StateMachine.State.MenuListarPrateleiras"/>
+<fullyQualifiedTypeName name="io.altar.StateMachine.State.MenuInicial"/>
+</qualifiedTypeNameHistroy>

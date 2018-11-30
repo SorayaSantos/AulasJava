@@ -1,0 +1,16 @@
+package io.altar.StateMachine;
+
+import io.altar.StateMachine.State.*;
+
+
+public class FSM {
+
+	public State[] states = {new MenuInicial(),
+			new MenuListarProdutos(),new MenuListarPrateleiras()}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

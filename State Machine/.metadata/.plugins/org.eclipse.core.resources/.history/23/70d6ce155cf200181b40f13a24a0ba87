@@ -1,0 +1,8 @@
+package io.altar.StateMachine.State;
+
+public interface State {
+	
+	public int execute();
+	
+	
+}
